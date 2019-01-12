@@ -1,24 +1,311 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="NZM-lx-YmA">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--E Seventh Avenue-->
+        <scene sceneID="6qD-iB-bSV">
+            <objects>
+                <viewController title="E Seventh Avenue" id="d91-oa-pz9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iHX-Ia-BB0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="07E-9h-Gxs"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Seventh Avenue" prompt="Welcome to the E Train at" id="gdd-yI-3jT">
+                        <barButtonItem key="backBarButtonItem" title="7th Ave" id="8Rc-J8-uAI"/>
+                        <barButtonItem key="rightBarButtonItem" title="Go East →" id="UKc-0V-PXo">
+                            <connections>
+                                <segue destination="osZ-Wf-gdd" kind="show" id="i14-6Z-4Z1"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m9F-0j-erf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1889" y="-1427"/>
+        </scene>
+        <!--E Fifth Avenue-->
+        <scene sceneID="ITB-4I-8DR">
+            <objects>
+                <viewController title="E Fifth Avenue" id="osZ-Wf-gdd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pLe-ZY-Lwb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="trC-7R-ue0"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Fifth Avenue" prompt="Welcome to the E Train at" id="g8n-bW-CbY">
+                        <barButtonItem key="backBarButtonItem" title="5th Ave" id="HeY-dT-oDb"/>
+                        <barButtonItem key="rightBarButtonItem" title="Go East →" id="81u-kl-5gv">
+                            <connections>
+                                <segue destination="tYc-xj-iyd" kind="show" id="VyW-pt-jcV"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wFk-KW-1VR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2822" y="-1427"/>
+        </scene>
+        <!--E Lexington Avenue-->
+        <scene sceneID="Rn3-PO-7cm">
+            <objects>
+                <viewController title="E Lexington Avenue" id="tYc-xj-iyd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zKM-FF-B0r">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="vkd-zH-yY2"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Lexington Avenue" prompt="Welcome to the E Train at" id="pdw-n3-Fjt">
+                        <barButtonItem key="backBarButtonItem" title="Lex" id="HUd-eN-lRO"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="52i-5r-Rk6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3825" y="-1427"/>
+        </scene>
+        <!--S Times Square-->
+        <scene sceneID="8lN-eR-aYG">
+            <objects>
+                <viewController title="S Times Square" id="3Nn-O9-8mL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Tch-4L-FkR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="nIp-sV-FTa"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Times Square" prompt="Welcome to the Shuttle at" id="FUv-hc-cKl">
+                        <barButtonItem key="backBarButtonItem" title="Times Sq" id="pEW-QF-kRj"/>
+                        <barButtonItem key="rightBarButtonItem" title="Go East →" id="kw0-3W-j6R">
+                            <connections>
+                                <segue destination="XeZ-NN-Db5" kind="show" id="Vb9-GN-KO4"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Pl-vl-TtQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1890" y="-633"/>
+        </scene>
+        <!--S Times Square-->
+        <scene sceneID="N0P-Ml-sif">
+            <objects>
+                <viewController title="S Times Square" id="XeZ-NN-Db5" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9UR-yO-v6U">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="cmo-AY-PdZ"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Grand Central Terminal" prompt="Welcome to the Shuttle at" id="QqV-fR-z39">
+                        <barButtonItem key="backBarButtonItem" title="GCT" id="fkh-vF-NUG"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5cp-nM-S9U" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2823" y="-633"/>
+        </scene>
+        <!--L 8th Avenue-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="L 8th Avenue" id="BYZ-38-t0r" customClass="ViewController" customModule="LTrain" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Eighth Avenue" prompt="Welcome to the L Train at" id="YZp-yC-0LB">
+                        <barButtonItem key="backBarButtonItem" title="8th Ave" id="zQg-Tu-xTt"/>
+                        <barButtonItem key="rightBarButtonItem" title="Go East →" id="GuB-mT-iD6">
+                            <connections>
+                                <segue destination="ts8-5T-3IT" kind="show" id="5tm-eL-AjQ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1889" y="133"/>
+        </scene>
+        <!--L 6th Avenue-->
+        <scene sceneID="xm7-IT-ebW">
+            <objects>
+                <viewController title="L 6th Avenue" id="ts8-5T-3IT" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Egd-ai-43X">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="XfA-bj-IJQ"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Sixth Avenue" prompt="Welcome to the L Train at" id="mNL-Vy-2Ft">
+                        <barButtonItem key="backBarButtonItem" title="6th Ave" id="hUe-f0-QKw"/>
+                        <barButtonItem key="rightBarButtonItem" title="Go East →" id="PWv-XG-sPk">
+                            <connections>
+                                <segue destination="FmV-fv-L0u" kind="show" id="nDC-fx-YVV"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xxh-yt-Pcy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2822" y="133"/>
+        </scene>
+        <!--L Union Square-->
+        <scene sceneID="f89-8X-80p">
+            <objects>
+                <viewController title="L Union Square" id="FmV-fv-L0u" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QWu-44-pMT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="a5D-Sz-IXL"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Union Square" prompt="Welcome to the L Train at" id="Or7-AO-tdn">
+                        <barButtonItem key="backBarButtonItem" title="Union Sq" id="VN1-dJ-cZk"/>
+                        <barButtonItem key="rightBarButtonItem" title="Go East →" id="Su7-cD-ARd">
+                            <connections>
+                                <segue destination="D89-qM-4Kh" kind="show" id="Yfe-Wq-qK6"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xnn-xH-7ba" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3825" y="133"/>
+        </scene>
+        <!--L 3rd Avenue-->
+        <scene sceneID="MlR-ig-Heq">
+            <objects>
+                <viewController title="L 3rd Avenue" id="D89-qM-4Kh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="s6C-lS-GTK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6xJ-5r-tWq"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Third Avenue" prompt="Welcome to the L Train at" id="i3b-J4-S7O">
+                        <barButtonItem key="backBarButtonItem" title="3rd Ave" id="yjR-uG-TgF"/>
+                        <barButtonItem key="rightBarButtonItem" title="Go East →" id="sBD-pX-B2L">
+                            <connections>
+                                <segue destination="FtN-dR-IVQ" kind="show" id="f66-ss-CNh"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aPt-2X-NTD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4911" y="133"/>
+        </scene>
+        <!--L 1st Avenue-->
+        <scene sceneID="pcB-tR-GzN">
+            <objects>
+                <viewController title="L 1st Avenue" id="FtN-dR-IVQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zMt-bc-IZ6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="m3d-ik-REb"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="First Avenue" prompt="Welcome to the L Train at" id="DwK-UN-YaY">
+                        <barButtonItem key="backBarButtonItem" title="1st Ave" id="Scr-KR-vTP"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="69t-Ad-PnB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5986" y="133"/>
+        </scene>
+        <!--L Train-->
+        <scene sceneID="cGm-Be-aB4">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="CXb-S5-GwJ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="L Train" image="L" selectedImage="L" id="Zlx-Cd-PCN"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="LbZ-dN-qzN">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="fah-qW-VrI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fwP-5W-IaZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="950" y="133"/>
+        </scene>
+        <!--Shuttle-->
+        <scene sceneID="hBd-rf-HPJ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="MOZ-nE-UBM" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Shuttle" image="L" id="z5B-NO-nEM"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="BSa-Fy-fW5">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="3Nn-O9-8mL" kind="relationship" relationship="rootViewController" id="Rvw-ch-119"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AAG-Ul-KuR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="951" y="-633"/>
+        </scene>
+        <!--E Train-->
+        <scene sceneID="tCE-HL-F3I">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="kia-17-61J" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="E Train" image="L" id="b4x-M9-iuv"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="lZJ-z3-KwM">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="d91-oa-pz9" kind="relationship" relationship="rootViewController" id="mfa-vl-gbG"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="En9-zJ-IWK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="950" y="-1427"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="vS4-pT-vck">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="NZM-lx-YmA" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Jyf-7C-wU0">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="CXb-S5-GwJ" kind="relationship" relationship="viewControllers" id="Exr-bp-a7K"/>
+                        <segue destination="MOZ-nE-UBM" kind="relationship" relationship="viewControllers" id="UAL-fW-LJg"/>
+                        <segue destination="kia-17-61J" kind="relationship" relationship="viewControllers" id="HQn-9p-8sd"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fye-gJ-Jy2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-567" y="-634"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="L" width="28" height="28"/>
+    </resources>
 </document>

@@ -6,12 +6,12 @@
 //  Copyright © 2019 New York University School of Professional Studies. All rights reserved.
 //
 
-import UIKit
+import UIKit;
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
-        super.viewDidLoad()
+        super.viewDidLoad();
         // Do any additional setup after loading the view, typically from a nib.
     }
 
